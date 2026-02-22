@@ -1,5 +1,7 @@
 # 🚗 CarAfford AI – Smart Car Affordability Advisor
 
+https://car-afford-ai.onrender.com/
+
 > **Production-grade fintech web application** built with Java 21, Spring Boot 3, MySQL 8, and Vanilla JS.
 
 ![Tech Stack](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green) ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue) ![Architecture](https://img.shields.io/badge/Architecture-Clean-purple)
