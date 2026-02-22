@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: CarAfford AI
+  
+  datasource:
+    url: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/carafford_db?sslMode=VERIFY_IDENTITY&tlsVersions=TLSv1.2,TLSv1.3
+    username: 2BZjwuhbXKLyStx.root
+    password: 79D8mHrtVNkR073e
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+  # If you have schema.sql and data.sql to initialize the DB, uncomment the line below:
+  # sql:
+  #   init:
+  #     mode: always
+
+server:
+  port: ${PORT:8080}
