@@ -3,6 +3,4 @@
 *.log
 *.txt
 .env
-application.properties
-application.yml
 .DS_Store
